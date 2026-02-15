@@ -67,7 +67,10 @@ Open your terminal in the project directory (`c:\Users\devan\data_analyst_agent`
     *   **Root Directory**: Leave blank (default is root).
     *   **Runtime**: `Python 3`.
     *   **Build Command**: `pip install -r requirements.txt`
-    *   **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+    *   **Start Command**: Copy and paste the following exactly (without extra quotes):
+        ```bash
+        uvicorn app.main:app --host 0.0.0.0 --port $PORT
+        ```
 
 3.  **Set Environment Variables**:
     *   Scroll down to the **Environment Variables** section.

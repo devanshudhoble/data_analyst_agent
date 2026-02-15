@@ -87,7 +87,10 @@ curl -X 'POST' \
 2.  Create a new **Web Service** on Render.
 3.  Connect your repository.
 4.  Set **Build Command**: `pip install -r requirements.txt`
-5.  Set **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+5.  Set **Start Command** to:
+    ```bash
+    uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    ```
 6.  Add Environment Variable `GROQ_API_KEY`.
 
 See `DEPLOYMENT.md` for a detailed step-by-step guide.
