@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pandas
+groq
+python-dotenv
+httpx
+pydantic
+google-genai
+google-adk
